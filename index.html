@@ -1,43 +1,106 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>제12회 구문소 용축제</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
-    header { background: #003366; color: white; padding: 2em; text-align: center; }
-    section { max-width: 800px; margin: auto; background: white; padding: 2em; margin-top: 1em; border-radius: 8px; }
-    img { width: 100%; border-radius: 8px; }
-    footer { text-align: center; font-size: 0.8em; color: gray; margin: 2em 0; }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2em;
+      margin-top: 1em;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.8em;
+      text-align: center;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 2em 0;
+      color: gray;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>제12회 구문소 용축제</h1>
-    <p>전통과 상상이 만나는 여름 축제!</p>
+    <p>전통과 상상이 만나는 여름 축제</p>
   </header>
 
   <section>
-    <h2>축제 개요</h2>
-    <p><strong>일시:</strong> 2025년 7월 27일(토) ~ 28일(일)</p>
-    <p><strong>장소:</strong> 태백시 구문소 일원</p>
-    <p><strong>주최:</strong> 구문소 용축제 추진위원회</p>
-    <p><strong>주관:</strong> 태백시, 구문소동 행정복지센터</p>
+    <h2>📅 축제 일정</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>일자</th>
+          <th>시간</th>
+          <th>프로그램</th>
+          <th>장소</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7월 12일(토)</td>
+          <td>14:00</td>
+          <td>개막식 & 용퍼포먼스</td>
+          <td>메인무대</td>
+        </tr>
+        <tr>
+          <td>7월 12일(토)</td>
+          <td>15:00~18:00</td>
+          <td>복불복 게임, 여의주 굴리기 체험</td>
+          <td>체험존</td>
+        </tr>
+        <tr>
+          <td>7월 13일(일)</td>
+          <td>13:00</td>
+          <td>지역예술공연 & 폐막식</td>
+          <td>메인무대</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section>
-    <h2>포스터</h2>
-    <img src="poster.jpg" alt="축제 포스터">
-  </section>
-
-  <section>
-    <h2>오시는 길</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    <h2>🎨 포스터</h2>
+    <img src="poster.jpg" alt="제12회 용축제 포스터" />
   </section>
 
   <footer>
-    ⓒ 2025 구문소 용축제 추진위원회
+    © 2025 구문소 용축제 추진위원회. All rights reserved.
   </footer>
+
 </body>
 </html>
